@@ -7,6 +7,8 @@ Installer cwebp :
 https://developers.google.com/speed/webp
 
 
+Ajouter les resizes souahités dans la liste RESIZES du fichier webp_converter.py
+
 [1] Placer les fichiers à convertir (.jpg - .png - .gif) dans le dossier "fichier_sources"
 [2] Lancer l'execusion de webp_converter.py :
 
