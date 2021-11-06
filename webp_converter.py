@@ -43,7 +43,7 @@ def main():
         commande = "cwebp -q 80 ./fichiers_sources/" + fichier +" -o ./exports_webp/" + nom_export
         execute_commande(commande)
         resize_image(fichier)
-        # shutil.move('./fichiers_sources/'+ fichier, "fichiers_traités/"+fichier)
+        shutil.move('./fichiers_sources/'+ fichier, "fichiers_traités/"+fichier)
 
 
 if __name__ == "__main__":
